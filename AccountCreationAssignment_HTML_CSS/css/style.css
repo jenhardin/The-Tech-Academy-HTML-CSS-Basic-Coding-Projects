@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	font-family: arial;
+	font-family: Tahoma;
 }
 
 header {
@@ -32,8 +32,10 @@ h3 {
 .intro {
 	font-size: 17px;
 }
+
 p {
 	text-align: center;
+	font-size: 18px;
 }
 
 blockquote {
@@ -50,9 +52,19 @@ li {
 	margin: 15px;
 }
 
-input, #photopreference {
+input {
 	width: 300px;
 	height: 30px;
+	margin: 2px;
+	border: 2px solid #636363;
+	border-radius: 2px;
+}
+
+#photopreference {
+	width: 300px;
+	height: 25px;
+	margin: 2px;
+	border: 2px solid #808080;
 }
 img {
 	max-width: 800px;
